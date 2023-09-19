@@ -10,6 +10,10 @@
   --color-red-dark: #e03131;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -50,8 +54,8 @@ body {
 }
 
 .box {
-  width: 42rem;
-  max-width: 42rem;
+  width: 50rem;
+  max-width: 50rem;
   background-color: var(--color-background-500);
   border-radius: 0.9rem;
   overflow: scroll;
